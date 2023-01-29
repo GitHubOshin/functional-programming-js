@@ -46,7 +46,7 @@ function addNumber(a, b) {
 }
 
 function addAccepting(add, a, b) {
-  return add(a + b)
+  return add(a, b)
 }
 
 console.log('Accepting : ', addAccepting(addNumber, 1, 6))
