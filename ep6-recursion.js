@@ -33,12 +33,12 @@ countDown(3)
 // f(3) = 3 * f(2)
 // f(4) = 4 * f(3) => 24
 
-function fatorial(n) {
+function factorial(n) {
   if (n === 1) return 1
-  return n * fatorial(n - 1)
+  return n * factorial(n - 1)
 }
 
-console.log('Factorial :', fatorial(4))
+console.log('Factorial :', factorial(4))
 
 /*
  * Example 2*/
